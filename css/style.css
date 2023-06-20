@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media(min-width:320px) {
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+
+    .image>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .icon-gp {
+        width: 100%;
+        gap: 8%;
+    }
+
+    .icon-right {
+        top: 56%;
+        right: 10%;
+    }
+
+
+}
+
+@media(min-width:620px) {
+    .container {
+        width: 85%;
+        margin: auto;
+    }
+
+    .image>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .icon-gp {
+        width: 100%;
+        gap: 5%;
+    }
+
+    .icon-right {
+        top: 60%;
+        right: 11%;
+    }
+}
+
+@media(min-width:960px) {
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+
+    .image>img {
+        width: 40%;
+        height: auto;
+    }
+
+
+
+    .icon-gp {
+        width: 50%;
+        gap: 8%;
+    }
+
+    .icon-right {
+        top: 91%;
+        left: 46%;
+    }
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.icon-gp {
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.icon {
+    font-size: 25px;
+    ;
+}
+
+
+
+.icon-1 {
+    display: none;
+    font-size: 25px;
+    color: aqua;
+    background-color: aquamarine;
+    position: fixed;
+    top: 50%;
+    left: 30%;
+}
+
+.text {
+
+    display: none;
+}
+
+.click {
+    display: block;
+
+}
